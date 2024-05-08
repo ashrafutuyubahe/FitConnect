@@ -17,7 +17,7 @@
       <img src="images/login.png" alt="people" />
     </div>
 
-    <form action="" method="post">
+    <form action="login.php" method="post">
       <div class="container">
         <div>
           <h1 class="header">Login</h1>
@@ -62,6 +62,7 @@
 </html>
 
 <?php
+if($_POST[''])
 
 
 ?>
