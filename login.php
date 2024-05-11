@@ -13,10 +13,7 @@
     />
   </head>
   <body>
-    <div class="image">
-      <img src="images/login.png" alt="people" />
-    </div>
-
+  
     <form action="login.php" method="post">
       <div class="container">
         <div>

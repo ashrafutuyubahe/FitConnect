@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <form action="register.php" method="post">
+  <form method="post">
     <div class="container">
       <div>
         <h1 class="header">Sign up</h1>
@@ -21,23 +21,23 @@
         <h2>Create your account !</h2>
       </div>
       <div>
-        <input type="text" name="name" id="name" placeholder="Name" />
+        <input type="text" name="username" id="username" placeholder="Name" />
       </div>
       <div>
-        <input type="email" name="email" id="email" placeholder="Email or Phone number" />
+        <input type="email" name="useremail" id="useremail" placeholder="Email or Phone number" />
       </div>
       <div>
-        <input type="password" name="password" id="password" placeholder="Password" />
+        <input type="password" name="userpassword" id="userpassword" placeholder="Password" />
       </div>
       <div>
-        <button type="submit" class="sign-up-btn">Sign up</button>
+        <input type="submit" name="signup" class="submit-input" value="Signup">
       </div>
       <p>OR</p>
       <div>
         <button type="submit" class="google">Sign in with Google</button>
       </div>
       <p class="text-bottom">
-        Already have an account ? <a href="login.html">Login</a>
+        Already have an account ? <a href="login.php">Login</a>
       </p>
     </div>
   </form>
@@ -48,25 +48,42 @@
 </body>
 
 </html>
+
 <?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+if(isset($_POST['signup'])){
+  include_once('connection.php');
   $username = $_POST['username'];
   $useremail = $_POST['useremail'];
   $userpassword = $_POST['userpassword'];
-  require_once 'connection.php';
 
-  $insert = "INSERT INTO users(user_name,user_email,user_password) values('$username','$useremail','$userpassword')"; 
-  if (!$result) {
-    die('error in registration' . $conn->error);
+  // Escape user inputs for security
+  $username = mysqli_real_escape_string($conn, $username);
+  $useremail = mysqli_real_escape_string($conn, $useremail);
+  $userpassword = mysqli_real_escape_string($conn, $userpassword);
+
+  // Insert user data into the database
+  $insert = "INSERT INTO users(user_name, user_email, user_password) VALUES ('$username', '$useremail', '$userpassword')";
+  $executeQuerry = $conn->query($insert);
+  if (!$executeQuerry) {
+      die('Error in registration: ' . $conn->error);
   } else {
-    echo "<script>alert('Registration is successfully done');</script>";
-    echo "<script>window.location.href = 'homepage.html';</script>";
-    exit;
-    exit;
+      echo "<script>alert('Registration is successfully done');</script>";
+      echo "<script>window.location.href = 'home.php';</script>";
+      exit;
   }
-} else {
-  echo "Invalid request method. Please try again.";
 }
+?>
 
+<?php
+$host= 'localhost';
+$usernm='root';
+$pass= '123'; // Enclose password in single quotes
+$dbnm='gymfitness';
+$conn= new mysqli($host,$usernm,$pass,$dbnm);
+if($conn->connect_error){
+    exit("connection failed:".$conn->connect_error);
+} 
 
+echo "connection is set"; // Fixed typo in 'connection' word
 ?>
