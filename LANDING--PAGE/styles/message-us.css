@@ -1,0 +1,129 @@
+#message--us{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 150px;
+}
+.left--section--message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+}
+.left--section--message .upper--section--message{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.left--section--message .upper--section--message h3{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 10px;
+    text-align: left;
+    color: black;
+}
+.left--section--message .upper--section--message p{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: black;
+}
+.left--section--message .lower--section--message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 470px;
+    gap: 20px;
+}
+.left--section--message .lower--section--message .l-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+.left--section--message .lower--section--message .l-sec img{
+    width: 40px;
+    height: 40px;
+}
+.left--section--message .lower--section--message .l-sec h4{
+    font-size: Poppins;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 19.5px;
+    text-align: left;
+    color: #0F6DA1;
+}
+.left--section--message .lower--section--message .l-sec h4 span{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 19.5px;
+    text-align: left;
+    color: black;
+}
+.left--section--message .lower--section--message .m-sec{
+    height: 75px;
+    background: rgb(33, 76, 229);
+    width: 5px;
+}
+.left--section--message .lower--section--message .r-sec p{
+    font-size: 17.5px;
+}
+.right--section--message form{
+    display: grid;
+    grid-template-rows: 40px 40px;
+    grid-template-columns: 380px 380px;
+    gap: 20px;
+    margin-top: -150px;
+}
+.right--section--message form .sender--info{
+    border-radius: 5px;
+    border: 1px solid rgba(112, 138, 153, 1);
+    outline: none;
+    text-indent: 10px;
+    font-size: 17px;
+}
+.right--section--message form .sender--info::placeholder{
+    color: rgb(117, 114, 114);
+    font-family: 'Lato', sans-serif;   
+    font-size: 15px;
+    line-height: 18px;
+}
+.right--section--message form .lower--form{
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right--section--message form .lower--form .subject,
+.right--section--message form .lower--form .message--sent{
+    border-radius: 5px;
+    border: 1px solid rgba(112, 138, 153, 1);
+    outline: none;
+    text-indent: 10px;
+    font-size: 17px;
+    padding-block: 9px;
+    font-family: 'Lato', sans-serif;   
+}
+.right--section--message form .lower--form .message--sent{
+    min-height: 230px;
+}
+.right--section--message form .lower--form button{
+    width: 200px;
+    background: rgb(15, 109, 161);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px; 
+    border: none;
+    border-radius: 50px;
+    padding-block: 12px;
+    justify-content: center;
+    margin: 0 auto;
+}

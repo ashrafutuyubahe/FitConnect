@@ -1,0 +1,39 @@
+.achievements {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.achie--title {
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 37.54px;
+    color: #000;
+    margin-bottom: 50px; 
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px; 
+    row-gap: 50px; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.card{
+    width: 450px;
+    height: 200px;
+    border-radius: 8px;
+    background: rgba(3, 104, 255, 0.09);
+}
+.card h3{
+    color: rgb(15, 109, 161);
+    font-size: 27px;
+}
+.card p{
+    font-size: 20px;
+}

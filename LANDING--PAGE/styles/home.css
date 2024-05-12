@@ -1,0 +1,83 @@
+#home{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    margin-top: 250px;
+    justify-content: center;
+}
+#home .left-section--home{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#home .left-section--home p{
+    display: flex;
+    flex-direction: column;
+    width: 619px;
+}
+#home .left-section--home p .title{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    color: #4C81E8;
+    margin-bottom: 20px;
+}
+#home .left-section--home p .other--text{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+#home .left-section--home button{
+    width: 185.46px;
+    height: 42.1px;
+    border: none;
+    border-radius: 30px;
+    background: #4C81E8;
+    color: #F9F9F9;
+    line-height: 21.77px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Work Sans;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#home .right-section--home{
+    margin-left: 200px;
+}
+#home .right-section--home .ellipse-1{
+    width: 400px;
+    height: 400px;
+}
+#home .right-section--home .ellipse-2{
+    width: 195px;
+    height: 195px;
+    position: relative;
+    top: 18px;
+    right: 180px;
+}
+.bar nav{
+    width: 848px;
+    height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: white;
+    margin-top: 170px;
+    margin-inline: auto;
+}
+.bar nav div{
+    padding: 9px 0px;
+    gap: 197px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
