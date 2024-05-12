@@ -57,15 +57,15 @@ if(isset($_POST['signup'])){
   $useremail = $_POST['useremail'];
   $userpassword = $_POST['userpassword'];
 
-  // Escape user inputs for security
+  
   $username = mysqli_real_escape_string($conn, $username);
   $useremail = mysqli_real_escape_string($conn, $useremail);
   $userpassword = mysqli_real_escape_string($conn, $userpassword);
-
-  // Insert user data into the database
+ 
+ 
   $insert = "INSERT INTO users(user_name, user_email, user_password) VALUES ('$username', '$useremail', '$userpassword')";
   $executeQuerry = $conn->query($insert);
-  if (!$executeQuerry) {
+  if (!$executeQuerry) { 
       die('Error in registration: ' . $conn->error);
   } else {
       echo "<script>alert('Registration is successfully done');</script>";
@@ -78,12 +78,12 @@ if(isset($_POST['signup'])){
 <?php
 $host= 'localhost';
 $usernm='root';
-$pass= '123'; // Enclose password in single quotes
+$pass= 123; 
 $dbnm='gymfitness';
 $conn= new mysqli($host,$usernm,$pass,$dbnm);
 if($conn->connect_error){
     exit("connection failed:".$conn->connect_error);
 } 
 
-echo "connection is set"; // Fixed typo in 'connection' word
+echo "connection is set"; 
 ?>

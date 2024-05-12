@@ -14,7 +14,7 @@
   </head>
   <body>
   
-    <form action="login.php" method="post">
+    <form method="post">
       <div class="container">
         <div>
           <h1 class="header">Login</h1>
@@ -59,7 +59,7 @@
 </html>
 
 <?php
-if($_POST[''])
+
 
 
 ?>
