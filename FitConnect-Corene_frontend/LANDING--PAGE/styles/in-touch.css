@@ -1,0 +1,71 @@
+#in--touch{
+    margin-top: 100px;
+}
+.contact-in-touch-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 38.73px;
+    text-align: left;
+    color: rgba(15, 109, 161, 1);
+    margin-left: 210px;
+    margin-bottom: 30px;
+}
+#in--touch .get-in-touch{
+    width: 1500px;
+    border-radius: 20px;
+    background: rgba(15, 109, 161, 0.02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-inline: auto;
+    padding-bottom: 100px;
+}
+#in--touch .get-in-touch h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 38.73px;
+    text-align: left;
+    color: rgba(15, 109, 161, 1);
+    margin-top: 100px;
+}
+#in--touch .get-in-touch .in--touch--links{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+#in--touch .get-in-touch .in--touch--links .in--touch--title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+#in--touch .get-in-touch .in--touch--links .in--touch--title .in--touch--img{
+    width: 75px;
+    height: 72px;
+    border: 2px solid rgba(15, 109, 161, 1);
+    border-radius: 50%;
+    background: rgba(3, 104, 255, 0.1);
+    margin-inline: auto;
+}
+#in--touch .get-in-touch .in--touch--links .in--touch--title .in--touch--img img{
+    color: rgb(255,255, 255);
+    position: relative;
+    top: 17px;
+    left: 23px;
+}
+#in--touch .get-in-touch .in--touch--links .in--touch--title .in--touch--img--text p{
+    width: 400px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+}
+.middle{
+    margin-top: 150px;
+}

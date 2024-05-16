@@ -1,0 +1,87 @@
+.fitness{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.fitness .left-section--fitness img{
+    width: 620px;
+    height: 540.5px;
+}
+.fitness .right-section--fitness{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 20px;
+}
+.fitness .right-section--fitness .upper-section-fitness h3{
+    font-family: Lato;
+    font-size: 19.5px;
+    font-weight: 800;
+    line-height: 20px;
+    text-align: left;
+    color: #0F6DA1;
+    letter-spacing: 0.02rem;
+}
+.fitness .right-section--fitness .upper-section-fitness p{
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: black;
+}
+.fitness .right-section--fitness .lower-section-fitness{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.fitness .right-section--fitness .lower-section-fitness .fit--section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fitness .right-section--fitness .lower-section-fitness .fit--section .fit--me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.fitness .right-section--fitness .lower-section-fitness .fit--section .fit--me .img{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #4C81E8;
+    border-radius: 50%;
+}
+.fitness .right-section--fitness .lower-section-fitness .fit--section .fit--me .img img{
+    position: relative;
+    top: 13px;
+    left: 14px;
+}
+.fitness .right-section--fitness .lower-section-fitness .fit--section .fit--me .img--text .img--text--title{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #1D1B1B;
+}
+.fitness .right-section--fitness .lower-section-fitness .fit--section .fit--me .img--text .img--text--desc{
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left; 
+    color: black;
+    margin-top: -18px;
+}
+#in--touch .get-in-touch .in--touch--links .in--touch--title .in--touch--img--text p{
+    width: 350px;
+    text-align: center;
+    font-family: Work Sans;
+    font-weight: 400;
+    size: 15px;
+    line-height: 17.6px;
+    color: black;
+}
