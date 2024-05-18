@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit;
     }
     
-    $hashedPassword = md5($userpassword);
+    $hashedPassword = password_hash($userpassword, PASSWORD_DEFAULT);
 
     $checkEmailQuery = "SELECT * FROM users WHERE User_email = '$useremail'";
     $checkEmailResult = mysqli_query($dbconn, $checkEmailQuery);
@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             echo "<script>
             alert('Your registration is successfully done.');
                 setTimeout(function() {
-                    window.location.href = '/xamm-php/GymFit/FitConnect-Manene_Frontend/FitConnect-Corene_frontend/LANDING--PAGE/index.html';
+                    window.location.href = '/xamm-php/GymFit/FitConnect-Manene_Frontend/FitConnect-Corene_frontend/LANDING--PAGE/index.php';
                 }, 10);
               </script>";
             exit;
