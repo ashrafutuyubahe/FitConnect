@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    include_once 'connection.php';
+    include_once 'dbconnection.php';
 
     $password = $_POST['userpassword'];
     $email = $_POST['useremail'];
