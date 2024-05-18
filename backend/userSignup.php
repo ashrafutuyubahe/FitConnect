@@ -5,8 +5,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $useremail = $_POST['useremail']; 
     $userpassword = $_POST['userpassword'];
     require_once 'connection.php';
-
-    $insert = "INSERT INTO users(name,email,password) values('$username','$useremail','$userpassword')";
+       
+    $hashedPassword= md5($userpassword);
+    $insert = "INSERT INTO users(user_name,user_email,user_password) values('$username','$useremail','$hashedPassword')";
     $result = mysqli_query($conn, $insert);
 
     
