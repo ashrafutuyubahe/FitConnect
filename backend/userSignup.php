@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         
         echo "<script>alert('Registration is successfully done');</script>";
-        echo "<script>window.location.href = 'homepage.html';</script>";
+        echo "<script>window.location.href = 'index.html';</script>";
         exit;
     }
 } else {
