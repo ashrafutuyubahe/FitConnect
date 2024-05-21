@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+nav {
+  height: 60px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #d9dddf;
+  box-shadow: 2px 2px 2px rgb(56, 55, 55);
+}
+
+.dash{
+	overflow-y: auto;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  cursor: pointer;
+}
+
+.sidebar {
+	/* height: 100%; */
+  width: 200px;
+  padding: 20px;
+  background-color: #00a3ff;
+  border-top: 1px solid black;
+  list-style: none;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.sidebar ul a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.logout {
+  color: #fff;
+  margin-top: 280px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+}
+.image {
+  background-image: url("images/Rectangle 84.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 800px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.content h1 {
+	margin-top: 40px;
+  color: #147bb2;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.image p {
+  color: #fff;
+  width: 400px;
+  font-size: 30px;
+  margin-left: 90px;
+}
+.image button {
+  position: relative;
+  background-color: #0f6da1;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-top: 80px;
+  margin-left: 540px;
+  border-radius: 30px;
+}
+
+.image:after{
+	content: '';
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 0;
+}
+
+table {
+	margin-left: 40px;
+	margin-top: 20px;
+  }
+  tr,
+  td {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	height: 2.7rem;
+	text-align: center;
+  }
+ 
+  .head {
+	border-radius: 4px;
+	text-align: center;
+	font-weight: 600;
+	padding: 10px 0;
+	color: white;
+	background-color: rgb(40, 170, 220);
+	margin: 0;
+  }
+  td {
+	width: auto;
+	padding: 3px 30px;
+  }
+
+  .booked{
+		background-color: #0871a9;
+		color: #fff;
+		border: none;
+		width: 80px;
+		height: 30px;
+		margin-left: 20px;
+		border-radius: 10px;
+  }
+
+  .book{
+	background-color: #d3e9f4;
+		color: #705ded;
+		border: none;
+		width: 80px;
+		height: 30px;
+		margin-left: 20px;
+		border-radius: 10px;
+  }
+
+  .booked:hover{
+		background-color: #165e86;
+		cursor: pointer;
+	
+  }
+ .book:hover{
+	background-color: #b9d6e5;
+	cursor: pointer;
+ }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
