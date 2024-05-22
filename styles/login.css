@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Lexend Deca", sans-serif;
+}
+.header{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #2E62C7;
+    height: 80px;
+}
+.container{
+    text-align: center;
+}
+
+form{
+    margin-top: 9%;
+}
+.sub-header{
+    text-align: center;
+    font-size: 8px;
+    font-weight: 400;
+    margin-top: -1rem;
+    color: #496eb9;
+}
+input{
+    width: 300px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #CDDBFD;
+}
+input[type="checkbox"]{
+    width: 18px;
+    height: 17px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #CDDBFD;
+}
+
+input::placeholder{
+    color: #000;
+    font-weight: 600;
+    padding-left: 10px;
+    width: 160px;
+    height: 20px;
+}
+.sign-up-btn{
+    font-size: 17px;
+    width: 300px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 30px;
+    border: 1px solid #00A3FF;
+    background-color: #00A3FF;
+    color:#FFFFFF;
+}
+.google{
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+    margin-top: 2px;
+    border-radius: 30px;
+    border: 1px solid #00A3FF;
+    background-color: #fff;
+    color: #224957;
+    box-shadow: 1px 1px 5px  #5f6366;
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #00A3FF;
+}
+.text-bottom{
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    color: #224957;
+}
+
+footer {
+    position: relative;
+
+  }
+  
+  footer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 111px;
+    margin-top: 75px;
+    size: cover;
+  }
+
+  body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  form{
+    margin-left: 20px;
+  }
+  .image{
+    margin-right: 20px;
+    margin-left: 0px;
+  }
