@@ -1,0 +1,54 @@
+.main-dashboard{
+    margin-top: 100px;
+    margin-left: 320px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-dashboard-upper-section{
+    background: rgba(3, 104, 255, 0.09);
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-inline: 40px;
+    padding-block: 20px;
+}
+.main-dashboard-upper-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-dashboard-upper-section .main-left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.main-dashboard-upper-section .main-left-section h1{
+    margin-top: 0;
+}
+.main-dashboard-upper-section .main-left-section p{
+    margin-bottom: 5px;
+}
+.main-dashboard-lower-section{
+    background: rgba(3, 104, 255, 0.09);
+    height: 675px;
+    width: 1533px;
+    border: none;
+    border-radius: 10px;
+}
+.main-dashboard-card-container{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.main-dashboard-card-container .card{
+    background: #D9D9D9;
+    height: 300px;
+    width: 350px;
+    border: none;
+    border-radius: 7px;
+}

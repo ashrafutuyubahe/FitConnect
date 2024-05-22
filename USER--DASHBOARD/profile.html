@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="dashboard--images/favicon/mdi_weights.png">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profile-styles/header.css">
+    <link rel="stylesheet" href="profile-styles/sidebar.css">
+    <link rel="stylesheet" href="profile-styles/main-profile.css">
+</head>
+<body>
+    <!--Header section starts-->
+    <header>
+        <div class="header-left-section">
+            <img src="dashboard--images/header--images/logo.png" alt="">
+            <p>G<span>Y</span>M</p>
+        </div>
+        <div class="header-right-section">
+            <img src="dashboard--images/header--images/search.png" alt="">
+            <img src="dashboard--images/header--images/notification.png" alt="">
+            <a href="profile.html"><img src="dashboard--images/header--images/user--profile.png" alt=""></a>
+        </div>
+    </header>
+    <!--Header section ends-->
+
+
+
+        <!--Sidebar section starts-->
+<div class="sidebar">
+    <div class="sidebar-top-section">
+
+        <div class="sidebar-component">
+            <img src="booked--images/sidebar--images/dashboard.png" alt="">
+            <p><a href="dashboard.html" style="text-decoration: none; color: white;">Dashboard</a></p>
+        </div>
+
+        <div class="sidebar-component">
+            <img src="dashboard--images/sidebar--images/packages.png" alt="">
+            <p>Packages</p>
+        </div>
+
+        <div class="sidebar-component">
+            <img src="settings-images/sidebar-images/booked.png" alt="">
+            <p><a href="booked.html" style="text-decoration: none; color: white;">Booked</a></p>
+        </div>
+
+        <div class="sidebar-component">
+            <img src="dashboard--images/sidebar--images/settings.png" alt="">
+            <p><a href="settings.html" style="text-decoration: none; color: white;">Settings</a></p>
+        </div>
+    </div>
+
+
+    <div class="sidebar-bottom-section">
+        <p>Logout &rarr;</p>
+    </div>
+</div>
+<!--Sidebar section ends-->
+
+
+<!--Profile section starts-->
+<div class="profile">
+    <div class="edit-profile">
+        <p class="profile-title">My Profile</p>  
+        <h2 class="personal">Personal Info</h2>  
+        <div class="edit-form">
+            <img src="profile-images/profile--image.png" alt="">
+            <div>
+                <form action="" class="edit-profile-form"> 
+                    <div class="input-fields">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="input-fields">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="input-fields">
+                        <label for="password">Old Password:</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div class="input-fields">
+                        <label for="password">New Password:</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div class="input-fields">
+                        <label for="password">Confirm Password:</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <button>Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Profile section ends-->
+</body>
+</html>

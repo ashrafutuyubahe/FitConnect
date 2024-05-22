@@ -1,0 +1,89 @@
+.booked{
+    margin: 100px 50px 100px 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.booked .booked-title{
+    color: #0F6DA1;
+}
+.booked .booked-title h1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.v-line{
+    background: #0F6DA1;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; 
+    margin: 25px 0;
+    font-size: 18px;
+    border: 1px solid rgba(3, 104, 255, 0.29);
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  table thead {
+    border-radius: 3px 3px 0 0; 
+  }
+  
+  table thead tr {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  table th,
+  table td {
+    padding: 7px;
+  }
+  
+  table tbody tr {
+    text-align: center;
+  }
+  
+  table tbody tr:last-of-type {
+    border-bottom: none;
+    border-radius: 0 0 3px 3px; 
+  }
+  
+  table tbody tr td .status {
+    background: #0F6DA1;
+    color: white;
+    padding-block: 7px;
+    border: 1px solid #0F6DA1;
+    border-radius: 5rem;
+    width: 180px;
+    margin-inline: auto;
+  }
+  .pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+  }
+  .page-prev{
+    background: white;
+    color: black;
+    padding: 10px 28px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid rgba(3, 104, 255, 0.29);
+    border-radius: 10px;
+  }
+  .page-next{
+    background: rgb(0, 163, 255);
+    color: white;
+    padding: 10px 45px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border: 2px solid rgb(0, 163, 255);
+    border-radius: 10px;
+  }
+  

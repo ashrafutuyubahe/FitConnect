@@ -1,0 +1,53 @@
+.profile{
+    margin-top: 250px;
+    margin-left: 700px;
+    margin-right: 50px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.4);
+    padding: 20px 50px;
+    width: 670px;
+}
+.profile .profile-title{
+    font-size: 20px;
+    text-align: center;
+    color: #666666;
+}
+.profile .personal{
+    font-size: 27px;
+}
+.edit-form{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.edit-form img{
+    width: 150px;
+    height: 150px;
+}
+.edit-profile-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.edit-profile-form input{
+    outline: none;
+    border: none;
+}
+.edit-profile-form button{
+    background: #0F6DA1;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10rem;
+    width: 140px;
+    margin-inline: auto;
+}
+.edit-profile-form .input-fields{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #0F6DA1;
+    font-size: 18px;
+}
+.edit-profile-form .input-fields input{
+    width: 300px;
+    font-size: 18px;
+}
