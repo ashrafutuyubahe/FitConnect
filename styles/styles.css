@@ -92,3 +92,113 @@ footer {
     margin-top: 75px;
     size: cover;
   }
+
+  * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+nav {
+  height: 60px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #d9dddf;
+  box-shadow: 2px 2px 2px rgb(56, 55, 55);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    cursor: pointer;
+  }
+
+   h1{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+  }
+
+  .contain{
+    justify-content: center;
+    width: 55%;
+    margin-left: 290px;
+    background-color: #F3F3F3;
+    height: auto;
+  }
+
+  h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  table{
+    height: 80%;
+    width: 94%;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+
+
+  tr,
+  td,
+  th {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	height: 2.7rem;
+	text-align: center;
+  }
+ 
+  .head {
+	border-radius: 4px;
+	text-align: center;
+	font-weight: 600;
+	padding: 10px 0;
+	margin: 0;
+  }
+  td {
+	width: auto;
+	padding: 3px 30px;
+  }
+
+  .booked{
+		background-color: #0871a9;
+		color: #fff;
+		border: none;
+		width: 80px;
+		height: 30px;
+		margin-left: 20px;
+		border-radius: 10px;
+  }
+
+  .book{
+	background-color: #d3e9f4;
+		color: #705ded;
+		border: none;
+		width: 80px;
+		height: 30px;
+		margin-left: 20px;
+		border-radius: 10px;
+  }
+
+  .booked:hover{
+		background-color: #165e86;
+		cursor: pointer;
+	
+  }
+ .book:hover{
+	background-color: #b9d6e5;
+	cursor: pointer;
+ }
