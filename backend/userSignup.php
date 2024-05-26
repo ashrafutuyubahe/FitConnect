@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             echo "<script>
             alert('Your registration is successfully done.');
                 setTimeout(function() {
-                    window.location.href = '/xamm-php/GymFit/FitConnect-Manene_Frontend/FitConnect-Corene_frontend/LANDING--PAGE/index.php';
+                    window.location.href = '  /xamm-php/GymFit/FitConnect-Manene_Frontend/USER--DASHBOARD/dashboard.html';
                 }, 10);
               </script>";
             exit;
