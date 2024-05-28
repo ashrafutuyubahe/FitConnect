@@ -1,0 +1,73 @@
+.newsletter{
+    height: 300px;
+    position: relative;
+}
+.newsletter-image{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 85px;
+    right: 20px; 
+    left: 20px;
+    width: 1500px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../newsletter-images/newsletter.png");
+    width: 1365px;
+    height: 445px;
+    border-radius: 10px;
+}
+.newsletter--content{
+    z-index: 10;
+    position: relative;
+    bottom: 345px;
+    text-align: center;
+    right: 50px;
+    left: 50px;
+}
+.newsletter--content h1{
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 0px;
+    letter-spacing: 0.02em;
+}
+.newsletter--content p{
+    font-size: 18px;
+    color: rgba(194, 194, 194, 1);
+}
+.newsletter--content form{
+    display: flex;
+    align-items: center;
+    border: 1.5px solid rgba(188, 188, 188, 1);
+    width: 700px;
+    margin-inline: auto;
+    padding-block: 5px;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+.newsletter--content form img{
+    height: 30px;
+    width: 30px;
+}
+.newsletter--content form input{
+    background: transparent;
+    color: white;
+    margin-left: 3px;
+    text-indent: 5px;
+    font-size: 18px;
+    width: 510px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+.newsletter--content form input::placeholder{
+    color: white;
+}
+.newsletter--content form button{
+    background: rgba(15, 109, 161, 1);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
